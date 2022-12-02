@@ -1,6 +1,7 @@
 module.exports = {
   title: 'alice',
   description: 'alice测试网页',
+  base: '/assddf',
   head: [
     ['link', { rel: 'icon', href: '/logo.jpg' }] // 需要被注入到当前页面的 HTML <head> 中的标签
   ],

@@ -15,7 +15,7 @@ cd docs/.vuepress/dist
 
 git init
 git add -A
-git commit -m '提交代码'
+git commit -m '修改'
 
 # 如果发布到 https://<USERNAME>.github.io
 # git push -f git@github.com:assddf/assddf.github.io.git master
