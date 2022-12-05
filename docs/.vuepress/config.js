@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'alice',
+  title: 'alice 哈哈哈',
   description: 'alice测试网页',
   head: [
     ['link', { rel: 'icon', href: '/logo.jpg' }] // 需要被注入到当前页面的 HTML <head> 中的标签
