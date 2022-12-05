@@ -15,11 +15,12 @@ cd docs/.vuepress/dist
 
 git init
 git add -A
-git commit -m '修改'
+git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io
 # git push -f git@github.com:assddf/assddf.github.io.git master
-git push -f https://github.com/assddf/assddf.github.io.git
+# 发布到gh-pages分支上（打包后dist的代码）
+git push -f git@github.com:assddf/assddf.github.io.git master:gh-pages
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
